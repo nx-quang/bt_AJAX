@@ -1,0 +1,108 @@
+.findCourses {
+
+    padding-top: $pd-4;
+    margin: auto;
+    width: 75%;
+    display: flex;
+    position: relative;
+
+    .findCourses__override {
+        z-index: 100;
+    }
+
+    .findCourses__content {
+        .findCourses__left {
+            img {
+                width: 526.66px;
+                height: 526.66px;
+            }
+        }
+    }
+
+    .findCourses__right {
+        z-index: 12;
+        max-width: 397px;
+        margin: auto;
+        height: 503px;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        border-radius: 20px;
+        background-color: $color-white-1;
+        box-shadow: 0 30px 30px -10px rgba(0, 0, 0, 0.2);
+        .finCourses__header {
+            text-align: center;
+            h1 {
+                font-size: 2.5rem;
+                font-weight: $fw-2;
+                margin-bottom: $mg-2;
+            }
+        }
+
+        form {
+            .findCourses__infor {
+                display: flex;
+                justify-content: center;
+                .findCourses__name {
+                    margin-right: 20px;
+                }
+                
+                input {
+                    border-radius: $bd-1;
+                    padding: $fs-12 0 $fs-12 3.5em !important;
+                    font-size: 0.65em !important;
+                    height: 4.7em;
+                    border: 1px solid rgba(0, 0, 0, 0.1);
+                }
+            }
+
+            .findCourses__dropdown {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .form-group {
+                    padding-top: 20px;
+                    width: 300px;
+                    .form-control {
+                        font-size: 0.7em;
+                        padding: 0 3em;
+                        border-radius: 50px;
+                        height: 35px;
+                    }
+                }
+            }
+
+            .findCourses__message {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                textarea {
+                    width: 305px;
+                    height: 93px;
+                    border-radius: 20px;
+                    padding: $fs-12 0 $fs-12 3.5em !important;
+                    font-size: 0.65em !important;
+                    height: 7.7em;
+                    border: 1px solid rgba(0, 0, 0, 0.1);
+                    margin-bottom: $mg-2;
+                }
+            }
+
+            .findCourses__button {
+                margin: auto;
+                width: 291px;
+                input {
+                    height: 4em;
+                    width: 130px;
+                    display: block;
+                    cursor: pointer;
+                    @include styleText($color-white-1, $fs-8, $fw-1);
+                    border-radius: 50px;
+                    border: 1px solid rgba(0, 0, 0, 0.1);
+                    background-color: $color-pink-1;
+                }
+            }
+        }
+    }
+}

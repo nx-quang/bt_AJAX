@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Team - Wavy</title>
+
+    <!-- BS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+
+    <!-- AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- GG FONT ROBOTO -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="#">
+            <img src="./images/crest.png" alt="" />
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#ourTeamMenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="ourTeamMenu">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Elements</a>
+              </li>
+            </ul>
+
+            <div class="topBarInMenu">
+              <div class="topBarInMenuCell">
+                <div class="btButtonWidget">
+                  <a class="btButtonWidgetLink" href="#">
+                    <span  class="btIconWidgetIcon">
+                      <i class="fa fa-phone"></i>
+                    </span>
+                    <span class="btButtonWidgetText">(+1) 555 234-8765</span>
+                  </a>
+                </div>
+                <a href="#" class="btIconWidget"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="btIconWidget"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="btIconWidget"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="btIconWidget"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="carousel">
+        <div class="container container__carousel">
+            <div class="row">
+                <div class="carousel__left col-6">
+                    <h2>ABOUT US</h1>
+                    <h1>The language <br>
+                         teaching experts</h1>
+                </div>
+
+                <div class="carousel__right col-6">
+                    <img src="./images/hero_team.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="bg__top__products"></div>
+    <section class="products">
+        <div class="container">
+            <div id="products__content"  class="row">
+            </div>
+        </div>
+        <div class="bg__bottom__products"></div>
+    </section>
+
+    <section class="findCourses">
+        <div class="container">
+            <div class="findCourses__content">
+                <div class="row">
+                    <div class="col-6 findCourses__override">
+                        <div class="findCourses__left">
+                            <img src="./images/conatct_inner.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-6 findCourses__override">
+                        <div class="findCourses__right">
+                        <div class="finCourses__header">
+                            <h1>Find Your Course</h1>
+                        </div>
+                        <form action="">
+                            <div class="findCourses__infor">
+                                <div class="findCourses__name">
+                                    <input type="text" name="your-name" placeholder="Name">
+                                </div>
+    
+                                <div class="findCourses__email">
+                                    <input type="email" name="your-email" placeholder="Email">
+                                </div>
+                            </div>
+
+                            <div class="findCourses__dropdown">
+                                <div class="form-group">
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                      <option>English</option>
+                                      <option>French</option>
+                                      <option>Spanish</option>
+                                      <option>German</option>
+                                    </select>
+                                  </div>
+                            </div>
+
+                            <div class="findCourses__message">
+                                <textarea name="your-message" id="" cols="40" rows="10" placeholder="Message"></textarea>
+                            </div>
+                        
+                            <div class="findCourses__button">
+                                <input type="submit" value="SEND">
+                            </div>
+                        </form>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg__footer"></div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer__content">
+                <div class="row">
+                    <div class="col-3 footer__items">
+                        <h2>Contact us</h2>
+                        <div class="footer__contact">
+                            <div class="footer__readline">
+                                <i class="fa fa-map-marker-alt"></i>
+                                <span>Franklin St, Greenpoint Ave</span>
+                            </div>
+
+                            <div class="footer__readline">
+                                <i class="fa fa-phone"></i>
+                                <span>+2342 5446 67</span>
+                            </div>
+    
+                            <div class="footer__readline">                    
+                                <i class="fa fa-clock"></i>
+                                <span>Monday - Friday: 8 AM - 5 PM</span>
+                            </div>
+
+                            <div class="footer__readline footer__contactLast">                    
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-instagram"></i>
+                                <i class="fab fa-facebook-f"></i>
+                                <i class="fab fa-youtube"></i>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-3 footer__items">
+                        <h2>Quick Links</h2>
+                        <div class="footer__quickLinks">
+                            <a href="#"><span>Home</span></a>
+                            <a href="#"><span>Courses</span></a>
+                            <a href="#"><span>Schedule</span></a>
+                            <a href="#"><span>Blog</span></a>
+                        </div>
+                    </div>
+    
+                    <div class="col-3 footer__items">
+                        <h2>About</h2>
+                        <div class="footer__quickLinks">
+                            <a href="#"><span>About Us</span></a>
+                            <a href="#"><span>Events</span></a>
+                            <a href="#"><span>Get Quote</span></a>
+                            <a href="#"><span>Contact</span></a>
+                        </div>
+                    </div>
+                    <div class="col-3 footer__items">
+                        <h2>Newsletter</h2>
+                        <div class="footer__other">
+                            
+                            <input type="text" placeholder="Your email">
+                            <button>SUBSCRIBE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AXIOS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js" integrity="sha512-u9akINsQsAkG9xjc1cnGF4zw5TFDwkxuc9vUp5dltDWYCSmyd0meygbvgXrlc/z7/o4a19Fb5V0OUE58J7dcyw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- JS -->
+    <script src="./js/product-services.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

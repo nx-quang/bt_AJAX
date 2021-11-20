@@ -1,0 +1,20 @@
+.carousel {
+    padding-top: $pd-4;
+    .row {
+        align-items: center;
+        .carousel__left {
+            h1 {
+                font-weight: $fw-2;
+                font-size: $fs-6;
+            }
+            h2 {
+                color: $color-pink-1;
+                font-size: $fs-10 + 0.1;
+            }
+        }
+    }
+}
+
+.container__carousel {
+    height: 362px;
+}

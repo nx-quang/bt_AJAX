@@ -1,0 +1,475 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Roboto",Arial,Helvetica,sans-serif;
+  color: #181818;
+  font-size: 15px;
+  font-weight: 400;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 1260px;
+  margin: auto;
+}
+
+body {
+  background-image: url(../images/yellow_top_wave_01.png);
+  background-repeat: no-repeat;
+  background-size: 106%;
+  background-attachment: unset;
+}
+
+#header {
+  z-index: 5;
+  position: absolute;
+  width: 100%;
+}
+
+#header .navbar .navbar-brand img {
+  height: 80px;
+  width: 80px;
+}
+
+#header .nav-item {
+  padding: 0 35px 0 0;
+}
+
+#header .nav-item a {
+  color: #181818;
+  cursor: pointer;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+#header .nav-item a:hover {
+  color: #b61984;
+}
+
+#header .btIconWidget {
+  z-index: 10;
+}
+
+#header .btIconWidget:hover {
+  z-index: 10;
+  color: #b61984;
+  background-image: #b61984;
+}
+
+#header .topBarInMenuCell {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#header .topBarInMenuCell .btButtonWidget {
+  font-size: 0.9em;
+  line-height: 1;
+  width: auto;
+  -webkit-box-shadow: 0 0 0 4rem #b61984 inset;
+          box-shadow: 0 0 0 4rem #b61984 inset;
+  padding: 1.1em 1.5em;
+  border-radius: 50px;
+  color: #ffffff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+#header .topBarInMenuCell .btButtonWidget .btButtonWidgetLink {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: center;
+}
+
+#header .topBarInMenuCell .btButtonWidget .btButtonWidgetLink .btIconWidgetIcon i {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  margin-right: 2px;
+}
+
+#header .topBarInMenuCell .btButtonWidget:hover {
+  z-index: 10;
+  color: #b61984;
+  -webkit-box-shadow: 0 0 0 1px #b61984 inset;
+          box-shadow: 0 0 0 1px #b61984 inset;
+}
+
+#header .topBarInMenuCell .btButtonWidget:hover a {
+  color: #000000;
+}
+
+#header .topBarInMenuCell .btIconWidget {
+  margin-left: 1em;
+}
+
+#header .topBarInMenuCell .btIconWidget i {
+  color: #191919;
+}
+
+.carousel {
+  padding-top: 4em;
+}
+
+.carousel .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.carousel .row .carousel__left h1 {
+  font-weight: 700;
+  font-size: 3.8rem;
+}
+
+.carousel .row .carousel__left h2 {
+  color: #b61984;
+  font-size: 1.1rem;
+}
+
+.container__carousel {
+  height: 362px;
+}
+
+.bg__top__products {
+  background-image: url(../images/Violet_top_left_wave.png);
+  background-repeat: no-repeat;
+  background-size: 101%;
+  background-position-y: bottom;
+  padding: 150px;
+}
+
+.products {
+  position: relative;
+  background-color: #dcd1f0;
+  width: 100%;
+}
+
+.products .products__item {
+  width: 270px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.products .products__item .products__img {
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all .6s;
+  transition: all .6s;
+  height: 180px;
+}
+
+.products .products__item .products__img img {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+}
+
+.products .products__item .products__img img:hover {
+  -webkit-transform: scale3d(1.05, 1.05, 1.05);
+          transform: scale3d(1.05, 1.05, 1.05);
+}
+
+.override {
+  z-index: 10;
+}
+
+.bg__bottom__products {
+  background-image: url(./../images/Wave_White_bottom_right_shape_01.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 361px;
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+}
+
+.products__text h3 {
+  margin-top: 10px;
+  color: #b61984;
+  font-size: 0.75rem;
+  margin-bottom: 0.7em;
+}
+
+.products__text h2 {
+  font-size: 1.55rem;
+  font-weight: 700;
+}
+
+.products__text p {
+  padding: 10px 0 35px 0;
+}
+
+.findCourses {
+  padding-top: 4em;
+  margin: auto;
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.findCourses .findCourses__override {
+  z-index: 100;
+}
+
+.findCourses .findCourses__content .findCourses__left img {
+  width: 526.66px;
+  height: 526.66px;
+}
+
+.findCourses .findCourses__right {
+  z-index: 12;
+  max-width: 397px;
+  margin: auto;
+  height: 503px;
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-items: center;
+  border-radius: 20px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 30px 30px -10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 30px 30px -10px rgba(0, 0, 0, 0.2);
+}
+
+.findCourses .findCourses__right .finCourses__header {
+  text-align: center;
+}
+
+.findCourses .findCourses__right .finCourses__header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+
+.findCourses .findCourses__right form .findCourses__infor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.findCourses .findCourses__right form .findCourses__infor .findCourses__name {
+  margin-right: 20px;
+}
+
+.findCourses .findCourses__right form .findCourses__infor input {
+  border-radius: 50px;
+  padding: 1em 0 1em 3.5em !important;
+  font-size: 0.65em !important;
+  height: 4.7em;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.findCourses .findCourses__right form .findCourses__dropdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.findCourses .findCourses__right form .findCourses__dropdown .form-group {
+  padding-top: 20px;
+  width: 300px;
+}
+
+.findCourses .findCourses__right form .findCourses__dropdown .form-group .form-control {
+  font-size: 0.7em;
+  padding: 0 3em;
+  border-radius: 50px;
+  height: 35px;
+}
+
+.findCourses .findCourses__right form .findCourses__message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.findCourses .findCourses__right form .findCourses__message textarea {
+  width: 305px;
+  height: 93px;
+  border-radius: 20px;
+  padding: 1em 0 1em 3.5em !important;
+  font-size: 0.65em !important;
+  height: 7.7em;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 35px;
+}
+
+.findCourses .findCourses__right form .findCourses__button {
+  margin: auto;
+  width: 291px;
+}
+
+.findCourses .findCourses__right form .findCourses__button input {
+  height: 4em;
+  width: 130px;
+  display: block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 0.8em;
+  font-weight: 600;
+  border-radius: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #b61984;
+}
+
+.bg__footer {
+  position: absolute;
+  bottom: -1px;
+  right: -210px;
+  background: url(../images/accent_bottom_wave_01.png) no-repeat;
+  width: 136%;
+  background-size: cover;
+  background-size: 99% 89%;
+  background-position-y: bottom;
+  height: 441px;
+}
+
+footer {
+  color: #ffffff;
+  background: url(../images/footer_background.jpg) no-repeat;
+  background-size: cover;
+  background-position-y: bottom;
+  padding: 216px 0;
+  width: 105%;
+  position: relative;
+}
+
+footer .footer__content {
+  position: absolute;
+  width: 81%;
+  top: 0;
+  left: 125px;
+}
+
+.row {
+  padding: 64px;
+}
+
+.footer__quickLinks {
+  margin-top: 26px;
+}
+
+.footer__quickLinks a {
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.footer__quickLinks a span::after {
+  content: "";
+  margin-top: 5px;
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #9c0376;
+}
+
+.footer__contact {
+  margin-top: 25px;
+}
+
+.footer__contact i {
+  margin-right: 10px;
+}
+
+.footer__contact span {
+  font-size: 0.9em;
+}
+
+.footer__contact .footer__readline {
+  margin-bottom: 10px;
+}
+
+.footer__contact .footer__contactLast {
+  margin-top: 20px;
+}
+
+.footer__other {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 35px;
+}
+
+.footer__other input {
+  outline: none;
+  margin-bottom: 20px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+  color: #ffffff;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.footer__other input:focus {
+  border: 1px solid white;
+}
+
+.footer__other button {
+  outline: none;
+  display: block;
+  cursor: pointer;
+  color: #191919;
+  font-size: 0.8em;
+  font-weight: 600;
+  border-radius: 50px;
+  padding: 10px;
+  color: #191919;
+  background-color: #b61984;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 0 4rem #ffffff inset;
+          box-shadow: 0 0 0 4rem #ffffff inset;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.footer__other button:hover {
+  color: #ffffff;
+  -webkit-box-shadow: 0 0 0 1px #ffffff inset;
+          box-shadow: 0 0 0 1px #ffffff inset;
+}
+/*# sourceMappingURL=main.css.map */

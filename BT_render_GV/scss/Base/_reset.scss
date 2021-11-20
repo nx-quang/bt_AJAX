@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: "Roboto",Arial,Helvetica,sans-serif;
+    @include styleText($color-dark-3, $fs-3, $fw-3);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 1260px;
+    margin: auto;
+}
+
+
+body {
+    background-image: url(../images/yellow_top_wave_01.png);
+    background-repeat: no-repeat;
+    background-size: 106%;
+    background-attachment: unset;
+}

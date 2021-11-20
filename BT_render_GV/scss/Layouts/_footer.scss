@@ -1,0 +1,112 @@
+.bg__footer {
+    position: absolute;
+    bottom: -1px;
+    right: -210px;
+
+    background: url(../images/accent_bottom_wave_01.png) no-repeat;
+    width: 136%;
+    background-size: cover;
+    background-size: 99% 89%;
+    background-position-y: bottom;
+    height: 441px;
+}
+
+footer {
+    color: #ffffff;
+    background: url(../images/footer_background.jpg) no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    padding: 216px 0;
+    width: 105%;
+    position: relative;
+    .footer__content {
+        position: absolute;
+        width: 81%;
+        top: 0;
+        left: 125px;
+    }
+}
+
+.row {
+    padding: 64px;
+}
+
+.footer__quickLinks {
+    margin-top: 26px;
+    a {
+        display: block;
+        text-decoration: none;
+        color: $color-white-1;
+        margin-bottom: 10px;
+        // border-bottom: 1px solid #9c0376;
+        span {
+            &::after {
+                content: "";
+                margin-top: 5px;
+                display: block;
+                width: 100%;
+                height: 1px;
+                background-color: #9c0376;
+            }
+        }
+    }
+}
+
+.footer__contact {
+    margin-top: 25px;
+    i {
+        margin-right: 10px;
+    }
+
+    span {
+        font-size: $fs-5;
+    }
+
+    .footer__readline {
+        margin-bottom: 10px;
+    }
+
+    .footer__contactLast {
+        margin-top: 20px;
+    }
+}
+
+.footer__other {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    input {
+        outline:none;
+        margin-bottom: 20px;
+        background: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        text-align: center;
+        color: $color-white-1;
+        background-color: transparent;
+        padding: 10px;
+        border-radius: 50px;
+        &:focus {
+            border: 1px solid rgba(255,255,255,1);
+            }
+        }
+
+    button {
+        outline: none;
+        display: block;
+        cursor: pointer;
+        color: #191919;
+        font-size: 0.8em;
+        font-weight: 600;
+        border-radius: 50px;
+        padding: 10px;
+        color: $color-dark-1;
+        background-color: $color-pink-1;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 0 4rem $color-white-1 inset;
+        transition: all 0.3s;
+        &:hover {
+            color: #ffffff;
+            box-shadow: 0 0 0 1px $color-white-1 inset;
+        }
+    }
+}
